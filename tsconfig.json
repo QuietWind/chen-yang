@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "module": "commonjs",
+    "strict": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ]
+  },
+  "include": ["./pages", "./types"]
+}
